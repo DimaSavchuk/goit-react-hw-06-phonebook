@@ -5,7 +5,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { setContactsFilter } from 'redux/slicer';
 import { getFilter } from 'redux/selectors';
 
-const Filter = ({ filter, value }) => {
+const Filter = () => {
   const dispatch = useDispatch();
 
   const handleFilterChange = event => {
